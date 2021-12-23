@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+:root {
+  --primary_cyan: hsl(180, 66%, 49%);
+  --primary_cyan_light: hsl(180, 66%, 49%, 0.7);
+}
+
+button {
+  background-color: var(--primary_cyan);
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  border-radius: 55px;
+  width: 100px;
+  margin-left: 22px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--primary_cyan_light);
+  cursor: pointer;
+}

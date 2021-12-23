@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { logo } from "../../assets/images";
 import "./Header.style.css";
+import { Button } from "../../components";
 
 function Header() {
   const [menuToggler, setmenuToggler] = useState(false);
@@ -19,7 +20,7 @@ function Header() {
         </div>
         <div className="secondSection">
           <p>Login</p>
-          <button>Signup</button>
+          <Button title="Signup" />
         </div>
         <div className="menu" onClick={toggleMenu}>
           {menuToggler ? (
@@ -43,7 +44,7 @@ function Header() {
         </div>
         <div>
           <p>Login</p>
-          <button>Signup</button>
+          <Button title="Signup" />
         </div>
       </div>
     </>
