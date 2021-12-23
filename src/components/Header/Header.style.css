@@ -39,7 +39,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  width: 170px;
 }
+
 .secondSection p:hover {
   color: var(--dark_violet);
   cursor: pointer;
@@ -58,6 +60,7 @@
   color: var(--white);
   margin-top: 22px;
   border-radius: 7px;
+  z-index: -1;
 }
 
 .hamburgerMenu hr {
@@ -92,10 +95,6 @@
   margin-left: 22px;
   font-weight: 700;
 }
-
-/* .hey {
-  display: none;
-} */
 
 @media only screen and (max-width: 607px) {
   .firstSection p,

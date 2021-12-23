@@ -43,8 +43,8 @@ function Header() {
           <hr />
         </div>
         <div>
-          <p>Login</p>
-          <Button title="Signup" />
+          <p className="login">Login</p>
+          <Button title="Signup" marginLeft="22px" />
         </div>
       </div>
     </>
