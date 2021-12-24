@@ -11,7 +11,7 @@ function LandingPage() {
           <Hero />
         </div>
       </div>
-      {/* <StatisticsSection /> */}
+      <StatisticsSection />
     </div>
   );
 }

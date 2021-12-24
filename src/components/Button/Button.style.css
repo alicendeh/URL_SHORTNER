@@ -10,7 +10,6 @@ button {
   color: var(--white);
   border: none;
   padding: 10px;
-  border-radius: 55px;
   font-weight: 700;
 }
 

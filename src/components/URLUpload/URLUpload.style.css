@@ -11,3 +11,102 @@
   --dark_violet: hsl(260, 8%, 14%);
   --white: #fff;
 }
+
+.imgBackground {
+  width: 81%;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: 75%;
+  background-color: var(--primart_dark_violet);
+  position: relative;
+  height: 12vh;
+  margin-top: -6vh;
+  margin-bottom: 22px;
+}
+
+.imgView {
+  width: 100%;
+  height: 100%;
+}
+
+.inputContainer {
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input {
+  background-color: var(--white);
+  width: 70%;
+  border-radius: 7px;
+  border: none;
+  height: 3rem;
+  margin-right: 17px;
+  padding: 12px;
+}
+
+.extra {
+  width: 250px;
+}
+.myBtn {
+  background-color: var(--primary_cyan);
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  font-weight: 700;
+  width: 100px;
+  border-radius: 7px;
+}
+
+.myBtn:hover {
+  background-color: var(--primary_cyan_light);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 915px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .imgBackground {
+    width: 90%;
+  }
+  .input {
+    width: 60%;
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+
+    align-items: center;
+  }
+  .input {
+    width: 90%;
+    margin-bottom: 12px;
+  }
+  .mainContainer {
+    height: 17vh;
+  }
+  .myBtn {
+    width: 90%;
+    margin-left: -20px;
+  }
+  .mainContainer {
+    margin-top: 25px;
+  }
+}

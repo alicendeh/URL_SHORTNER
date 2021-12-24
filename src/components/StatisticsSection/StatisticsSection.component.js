@@ -4,7 +4,7 @@ import "./StatisticsSection.style.css";
 
 function StatisticsSection() {
   return (
-    <div className="container">
+    <div className="statisticsContainer">
       <URLUpload />
     </div>
   );

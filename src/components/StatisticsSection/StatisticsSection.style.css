@@ -12,7 +12,8 @@
   --white: #fff;
 }
 
-.statsContainer {
-  background-color: var(--grayish_violet);
-  height: 45vh;
+.statisticsContainer {
+  background-color: var(--gray);
+  width: 100vw;
+  margin-top: 85px;
 }
