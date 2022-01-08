@@ -30,10 +30,7 @@ function Header() {
           )}
         </div>
       </nav>
-      <div
-        className={`hey ${menuToggler ? "hamburgerMenu" : "show"} `}
-        // "hamburgerMenu"
-      >
+      <div className={`hey ${menuToggler ? "hamburgerMenu" : "show"} `}>
         <div>
           <p>Features</p>
           <p>Pricing</p>

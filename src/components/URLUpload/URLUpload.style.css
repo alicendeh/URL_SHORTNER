@@ -24,7 +24,7 @@
 }
 
 .mainContainer {
-  width: 75%;
+  width: 100%;
   background-color: var(--primart_dark_violet);
   position: relative;
   height: 12vh;

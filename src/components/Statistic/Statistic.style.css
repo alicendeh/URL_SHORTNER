@@ -11,3 +11,50 @@
   --dark_violet: hsl(260, 8%, 14%);
   --white: #fff;
 }
+
+.statisticContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.statisticsHeader {
+  color: var(--dark_violet);
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.statisticsBody {
+  color: var(--grayish_violet);
+  font-size: 1.2rem;
+  text-align: center;
+  width: 32%;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 607px) {
+  .statisticsBody {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .statisticsHeader {
+    font-size: 1.5rem;
+  }
+  .statisticsBody {
+    width: 95%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 234px) {
+  .statisticsHeader {
+    font-size: 1rem;
+  }
+  .statisticsBody {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+}

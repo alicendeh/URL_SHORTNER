@@ -1,11 +1,12 @@
 import React from "react";
-import { URLUpload } from "../../components";
+import { URLUpload, Statistic } from "../../components";
 import "./StatisticsSection.style.css";
 
 function StatisticsSection() {
   return (
     <div className="statisticsContainer">
       <URLUpload />
+      <Statistic />
     </div>
   );
 }
