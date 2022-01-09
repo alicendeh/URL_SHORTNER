@@ -5,6 +5,7 @@ import URLUpload from "./URLUpload/URLUpload.component.jsx";
 import StatisticsSection from "./StatisticsSection/StatisticsSection.component.js";
 import LandingPage from "../pages/LandingPage/LandingPage.component.js";
 import Statistic from "./Statistic/Statistic.component.jsx";
+import Card from "./Card/Card.component.jsx";
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   StatisticsSection,
   LandingPage,
   Statistic,
+  Card,
 };

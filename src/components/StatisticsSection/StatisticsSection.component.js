@@ -1,5 +1,5 @@
 import React from "react";
-import { URLUpload, Statistic } from "../../components";
+import { URLUpload, Statistic, Card } from "../../components";
 import "./StatisticsSection.style.css";
 
 function StatisticsSection() {
@@ -7,6 +7,14 @@ function StatisticsSection() {
     <div className="statisticsContainer">
       <URLUpload />
       <Statistic />
+      <Card />
+      <div
+        style={{
+          height: "60vh",
+        }}
+      >
+        ss
+      </div>
     </div>
   );
 }
