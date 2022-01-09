@@ -16,5 +16,31 @@
   background-color: #eef1f6;
   width: 100vw;
   margin-top: 85px;
-  /* padding-top: 88px; */
+  height: 80vh;
 }
+
+@media only screen and (max-width: 980px) {
+  .statisticsContainer {
+    height: 99vh;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .statisticsContainer {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .statisticsContainer {
+    height: 170vh;
+  }
+}
+
+@media only screen and (max-width: 271px) {
+  .statisticsContainer {
+    height: 200vh;
+  }
+}
+
+/* //height */

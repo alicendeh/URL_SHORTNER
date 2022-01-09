@@ -8,13 +8,6 @@ function StatisticsSection() {
       <URLUpload />
       <Statistic />
       <Card />
-      <div
-        style={{
-          height: "60vh",
-        }}
-      >
-        ss
-      </div>
     </div>
   );
 }

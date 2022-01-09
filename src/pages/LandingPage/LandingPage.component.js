@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Hero, StatisticsSection } from "../../components";
+import { Header, Hero, StatisticsSection, Footer } from "../../components";
 import "./LandingPage.style.css";
 
 function LandingPage() {
@@ -12,6 +12,7 @@ function LandingPage() {
         </div>
       </div>
       <StatisticsSection />
+      <Footer />
     </div>
   );
 }

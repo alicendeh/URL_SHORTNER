@@ -109,18 +109,6 @@
     top: 129px;
   }
 
-  .iconContainer {
-    /* background-color: var(--primart_dark_violet);
-    width: 60px;
-    height: 60px;
-    border-radius: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -35px; */
-  }
-
   .cont {
     background-color: white;
     width: calc(100%);
@@ -132,13 +120,6 @@
     margin-top: 22px;
   }
 
-  .title {
-    /* color: var(--dark_violet);
-    font-weight: bold;
-    font-size: 1.3rem;
-    margin-bottom: 12px; */
-  }
-
   .body {
     color: var(--grayish_violet);
     width: 90%;
@@ -146,7 +127,19 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .lineCont {
+    top: 789px;
+  }
+  .cardContent {
+    top: 230px;
+  }
 }
 
-@media only screen and (max-width: 234px) {
+@media only screen and (max-width: 250px) {
+  .lineCont {
+    top: 989px;
+  }
+  .cardContent {
+    top: 430px;
+  }
 }

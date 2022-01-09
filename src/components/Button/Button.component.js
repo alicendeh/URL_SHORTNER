@@ -9,7 +9,7 @@ function Button({ title, width, br }) {
         borderRadius: br ? br : "55px",
       }}
     >
-      {title}{" "}
+      {title}
     </button>
   );
 }

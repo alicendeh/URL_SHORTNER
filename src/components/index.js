@@ -6,6 +6,7 @@ import StatisticsSection from "./StatisticsSection/StatisticsSection.component.j
 import LandingPage from "../pages/LandingPage/LandingPage.component.js";
 import Statistic from "./Statistic/Statistic.component.jsx";
 import Card from "./Card/Card.component.jsx";
+import Footer from "./Footer/Footer.component.jsx";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   LandingPage,
   Statistic,
   Card,
+  Footer,
 };
