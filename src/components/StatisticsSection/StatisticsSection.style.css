@@ -14,22 +14,25 @@
 
 .statisticsContainer {
   background-color: #eef1f6;
-  width: 100vw;
+  width: 100%;
   margin-top: 85px;
-  height: 80vh;
+  height: fit-content;
+  /* height: 80vh; */
 }
 
+/* @media only screen and (max-width: 620px) {
+  .statisticsContainer {
+    height: 430vh;
+  }
+} */
+/* 
 @media only screen and (max-width: 980px) {
   .statisticsContainer {
     height: 99vh;
   }
 }
 
-@media only screen and (max-width: 620px) {
-  .statisticsContainer {
-    height: 150vh;
-  }
-}
+
 
 @media only screen and (max-width: 400px) {
   .statisticsContainer {
@@ -41,6 +44,6 @@
   .statisticsContainer {
     height: 200vh;
   }
-}
+} */
 
 /* //height */

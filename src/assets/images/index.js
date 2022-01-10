@@ -12,6 +12,7 @@ import icon_pinterest from "./icon-pinterest.svg";
 import icon_twitter from "./icon-twitter.svg";
 import illustration_working from "./illustration-working.svg";
 import logo from "./logo.svg";
+import loading from "./unnamed.gif";
 
 export {
   bg_boost_desktop,
@@ -28,4 +29,5 @@ export {
   icon_instagram,
   illustration_working,
   logo,
+  loading,
 };

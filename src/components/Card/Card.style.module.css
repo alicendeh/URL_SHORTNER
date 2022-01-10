@@ -16,13 +16,13 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-top: 47px;
+  height: 57vh;
 }
 .cardContainer1 {
   display: flex;
   justify-content: center;
   width: 81%;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   height: 224px;
   flex-direction: column;
   font-family: "Poppins";
@@ -84,8 +84,15 @@
 }
 
 @media only screen and (max-width: 607px) {
-  .main {
+  /* .main {
     margin-bottom: 45px;
+  } */
+  .main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 150vh;
+    margin-top: -270px;
   }
   .line {
     width: 20px;
@@ -100,13 +107,13 @@
     justify-content: center;
     height: 100%;
     position: relative;
-    top: 589px;
+    top: 449px;
   }
   .cardContent {
     flex-direction: column;
     width: 100%;
     position: relative;
-    top: 129px;
+    /* top: 129px; */
   }
 
   .cont {
@@ -117,7 +124,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 22px;
+    /* margin-top: 22px; */
   }
 
   .body {
@@ -143,3 +150,21 @@
     top: 430px;
   }
 }
+
+@media only screen and (max-width: 250px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* height: 300vh; */
+  }
+}
+
+/* @media only screen and (max-width: 856px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+  }
+} */

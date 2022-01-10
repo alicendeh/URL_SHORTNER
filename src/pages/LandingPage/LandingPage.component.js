@@ -4,13 +4,14 @@ import "./LandingPage.style.css";
 
 function LandingPage() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <div className="main">
         <div className="container">
           <Header />
           <Hero />
         </div>
       </div>
+
       <StatisticsSection />
       <Footer />
     </div>

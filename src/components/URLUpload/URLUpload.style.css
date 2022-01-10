@@ -44,6 +44,10 @@
 .full {
   color: var(--dark_blue);
   font-size: 19px;
+  width: 100%;
+}
+.fullContainer {
+  width: 100%;
 }
 
 .placeholdered::placeholder {
@@ -137,11 +141,42 @@
     width: 89%;
   }
 
+  .whiteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .secondContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+  }
   .secondContent p {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-top: 12px;
   }
   .full {
-    font-size: 1rem;
+    font-size: 1.3rem;
+  }
+  .secondContent button {
+    margin-top: 12px;
+  }
+  .myLine {
+    width: 100%;
+    background-color: #ccc;
+    height: 0.1px;
+    margin-top: 12px;
+  }
+  .secondContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .enlarge {
+    margin-left: 2px;
+    width: 100%;
   }
 }
 
@@ -203,5 +238,9 @@
   .enlarge {
     margin-left: 2px;
     width: 100%;
+  }
+
+  .fullContainer {
+    width: 70%;
   }
 }

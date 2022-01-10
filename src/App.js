@@ -4,7 +4,7 @@ import { LandingPage } from "./components";
 
 function App() {
   return (
-    <div className="container">
+    <div className="containeras">
       <LandingPage />
     </div>
   );

@@ -18,7 +18,7 @@ li {
   list-style: none;
 }
 .fistContainer {
-  width: 100vw;
+  width: 100%;
   background-color: var(--primart_dark_violet);
   height: 25vh;
   position: relative;
@@ -52,14 +52,14 @@ li {
 .footer {
   background-color: var(--dark_blue);
   height: 37vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .items {
-  width: 81vw;
+  width: 81%;
   height: "100%";
   display: flex;
   flex-direction: row;
