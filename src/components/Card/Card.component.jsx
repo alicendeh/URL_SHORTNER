@@ -34,6 +34,7 @@ function Card() {
         <div className={style.cardContent}>
           {DATA_SET.map((data, index) => (
             <div
+              key={index}
               className={style.cont}
               style={{
                 marginTop: index * 40,

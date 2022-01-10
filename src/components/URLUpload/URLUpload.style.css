@@ -126,6 +126,31 @@
   cursor: pointer;
 }
 
+.spinner {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 3px solid white;
+  animation: spin 0.7s linear infinite;
+  border-bottom-color: burlywood;
+}
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.copied {
+  /* background-color: var(--primart_dark_violet); */
+  /* font-size: 88px; */
+}
+
 @media only screen and (max-width: 915px) {
   .mainContainer {
     width: 100%;

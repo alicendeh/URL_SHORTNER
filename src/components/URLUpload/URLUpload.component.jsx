@@ -11,6 +11,7 @@ function URLUpload() {
   const [isEmpty, setisEmpty] = useState(false);
   const [shortenedLink, setshortenedLink] = useState([]);
   const [isLoading, setisLoading] = useState(false);
+  const [test, setTest] = useState(false);
 
   useEffect(() => {
     let exists = localStorage.getItem("EXISTS");
@@ -23,15 +24,12 @@ function URLUpload() {
     }
   }, []);
 
-  useEffect(() => {
-    console.log(isLoading, "STATE");
-  }, [isLoading]);
-
   const shortenLink = async () => {
     if (link === "") {
       setisEmpty(true);
     } else {
       setisLoading(true);
+      setisEmpty(false);
 
       let res = await axios.get(`
         https://api.shrtco.de/v2/shorten?url=${link}/very/long/link.html
@@ -42,6 +40,7 @@ function URLUpload() {
         {
           fullLink: link,
           shortenedLink: res.data.result.short_link,
+          onClipBoard: false,
         },
       ]);
 
@@ -52,18 +51,32 @@ function URLUpload() {
           {
             fullLink: link,
             shortenedLink: res.data.result.short_link,
+            onClipBoard: false,
           },
         ])
       );
       if (res.data) {
         localStorage.setItem("EXISTS", true);
         setisLoading(false);
+        setlink("");
       }
     }
   };
 
   const onChange = (e) => {
     setlink(e.target.value);
+  };
+
+  const copy = (data, index) => {
+    setTest(!test);
+    navigator.clipboard.writeText(data.shortenedLink);
+    let newArray = [...shortenedLink];
+    newArray[index] = {
+      ...newArray[index],
+      onClipBoard: true,
+    };
+
+    setshortenedLink(newArray);
   };
 
   return (
@@ -78,11 +91,13 @@ function URLUpload() {
               placeholder="shorten a link here..."
               className={isEmpty ? `placeholdered` : "input"}
             />
-            {isEmpty && <i className="noLink">Please add a link</i>}
+            {isEmpty && <i className={`noLink next`}>Please add a link</i>}
 
             <button className="myBtn" onClick={shortenLink}>
               {isLoading ? (
-                <img src={loading} width="70" height="80" />
+                <div className="spinnerContainer">
+                  <div className="spinner"></div>
+                </div>
               ) : (
                 " Shorten It!"
               )}
@@ -95,20 +110,35 @@ function URLUpload() {
           {shortenedLink.map((data, index) => (
             <div className="whiteContainer" key={index}>
               <div className="fullContainer">
-                <p className="full">
-                  <LinesEllipsis
-                    text={data.fullLink}
-                    maxLine="1"
-                    ellipsis="..."
-                    trimRight
-                    basedOn="letters"
-                  />
-                </p>
+                <LinesEllipsis
+                  className="full"
+                  text={data.fullLink}
+                  maxLine="1"
+                  ellipsis="..."
+                  trimRight
+                  basedOn="letters"
+                />
               </div>
               <div className="myLine"></div>
               <div className="secondContent">
                 <p>{data.shortenedLink} </p>
-                <button className={`myBtn enlarge`}>Copy</button>
+                {data.onClipBoard ? (
+                  <button
+                    style={{
+                      backgroundColor: "hsl(257, 27%, 26%)",
+                    }}
+                    className={`myBtn enlarge copied`}
+                  >
+                    Copied!
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => copy(data, index)}
+                    className={`myBtn enlarge`}
+                  >
+                    Copy
+                  </button>
+                )}
               </div>
             </div>
           ))}

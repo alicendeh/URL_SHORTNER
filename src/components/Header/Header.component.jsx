@@ -24,9 +24,9 @@ function Header() {
         </div>
         <div className="menu" onClick={toggleMenu}>
           {menuToggler ? (
-            <i class="fas fa-times"></i>
+            <i className="fas fa-times"></i>
           ) : (
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
           )}
         </div>
       </nav>
