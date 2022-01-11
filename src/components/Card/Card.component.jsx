@@ -24,27 +24,58 @@ const DATA_SET = [
   },
 ];
 
+// function Card() {
+//   return (
+//     <div className={style.main}>
+//       <div className={style.cardContainer1}>
+//         <div className={style.lineCont}>
+//           <div className={style.line}></div>
+//         </div>
+//         <div className={style.cardContent}>
+//           {DATA_SET.map((data, index) => (
+//             <div
+//               key={index}
+//               className={style.cont}
+//               style={{
+//                 marginTop: index * 40,
+//                 marginBottom: index * -40,
+//               }}
+//             >
+//               <div className={style.iconContainer}>
+//                 <img src={data.iconName} width="35" />
+//               </div>
+//               <p className={style.title}> {data.title} </p>
+//               <p className={style.body}> {data.body} </p>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Card;
+
 function Card() {
   return (
-    <div className={style.main}>
-      <div className={style.cardContainer1}>
-        <div className={style.lineCont}>
+    <div className={style.mainContainer}>
+      <div className={style.realContent}>
+        <div className={style.lineContainer}>
           <div className={style.line}></div>
         </div>
-        <div className={style.cardContent}>
+        <div className={style.dataSet}>
           {DATA_SET.map((data, index) => (
             <div
-              key={index}
-              className={style.cont}
               style={{
-                marginTop: index * 40,
-                marginBottom: index * -40,
+                marginTop: index * 30,
+                marginBottom: index * -30,
               }}
+              className={style.indContainer}
             >
-              <div className={style.iconContainer}>
-                <img src={data.iconName} width="35" />
+              <div className={style.imgContainer}>
+                <img src={data.iconName} width="30" alt="" />
               </div>
-              <p className={style.title}> {data.title} </p>
+              <p className={style.title}>{data.title} </p>
               <p className={style.body}> {data.body} </p>
             </div>
           ))}
