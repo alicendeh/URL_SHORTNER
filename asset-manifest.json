@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/URL_SHORTNER/static/css/main.a8ca09e5.chunk.css",
-    "main.js": "/URL_SHORTNER/static/js/main.e3ef135e.chunk.js",
-    "main.js.map": "/URL_SHORTNER/static/js/main.e3ef135e.chunk.js.map",
-    "runtime-main.js": "/URL_SHORTNER/static/js/runtime-main.1971c7ee.js",
-    "runtime-main.js.map": "/URL_SHORTNER/static/js/runtime-main.1971c7ee.js.map",
-    "static/js/2.6b62101b.chunk.js": "/URL_SHORTNER/static/js/2.6b62101b.chunk.js",
-    "static/js/2.6b62101b.chunk.js.map": "/URL_SHORTNER/static/js/2.6b62101b.chunk.js.map",
-    "static/js/3.4d309be3.chunk.js": "/URL_SHORTNER/static/js/3.4d309be3.chunk.js",
-    "static/js/3.4d309be3.chunk.js.map": "/URL_SHORTNER/static/js/3.4d309be3.chunk.js.map",
+    "main.css": "/URL_SHORTNER/static/css/main.109f7a4e.chunk.css",
+    "main.js": "/URL_SHORTNER/static/js/main.a7d1521a.chunk.js",
+    "main.js.map": "/URL_SHORTNER/static/js/main.a7d1521a.chunk.js.map",
+    "runtime-main.js": "/URL_SHORTNER/static/js/runtime-main.4d57b5da.js",
+    "runtime-main.js.map": "/URL_SHORTNER/static/js/runtime-main.4d57b5da.js.map",
+    "static/js/2.368ee3a6.chunk.js": "/URL_SHORTNER/static/js/2.368ee3a6.chunk.js",
+    "static/js/2.368ee3a6.chunk.js.map": "/URL_SHORTNER/static/js/2.368ee3a6.chunk.js.map",
+    "static/js/3.93d41882.chunk.js": "/URL_SHORTNER/static/js/3.93d41882.chunk.js",
+    "static/js/3.93d41882.chunk.js.map": "/URL_SHORTNER/static/js/3.93d41882.chunk.js.map",
     "index.html": "/URL_SHORTNER/index.html",
-    "static/css/main.a8ca09e5.chunk.css.map": "/URL_SHORTNER/static/css/main.a8ca09e5.chunk.css.map",
-    "static/js/2.6b62101b.chunk.js.LICENSE.txt": "/URL_SHORTNER/static/js/2.6b62101b.chunk.js.LICENSE.txt",
+    "static/css/main.109f7a4e.chunk.css.map": "/URL_SHORTNER/static/css/main.109f7a4e.chunk.css.map",
+    "static/js/2.368ee3a6.chunk.js.LICENSE.txt": "/URL_SHORTNER/static/js/2.368ee3a6.chunk.js.LICENSE.txt",
     "static/media/bg-boost-desktop.772154c9.svg": "/URL_SHORTNER/static/media/bg-boost-desktop.772154c9.svg",
     "static/media/bg-boost-mobile.4b04bd89.svg": "/URL_SHORTNER/static/media/bg-boost-mobile.4b04bd89.svg",
     "static/media/bg-shorten-desktop.0d9742f4.svg": "/URL_SHORTNER/static/media/bg-shorten-desktop.0d9742f4.svg",
@@ -28,9 +28,9 @@
     "static/media/unnamed.4c0524fc.gif": "/URL_SHORTNER/static/media/unnamed.4c0524fc.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.1971c7ee.js",
-    "static/js/2.6b62101b.chunk.js",
-    "static/css/main.a8ca09e5.chunk.css",
-    "static/js/main.e3ef135e.chunk.js"
+    "static/js/runtime-main.4d57b5da.js",
+    "static/js/2.368ee3a6.chunk.js",
+    "static/css/main.109f7a4e.chunk.css",
+    "static/js/main.a7d1521a.chunk.js"
   ]
 }
