@@ -79,9 +79,10 @@
   width: 100%;
   background-color: var(--primart_dark_violet);
   position: relative;
-  height: 12vh;
   margin-top: -6vh;
   margin-bottom: 22px;
+
+  height: 100px !important;
 }
 
 .imgView {
@@ -226,6 +227,7 @@
   }
   .mainContainer {
     margin-top: 25px;
+    height: 125px !important;
   }
   .whiteContainer {
     display: flex;

@@ -3,8 +3,6 @@ import React, { useState, useEffect } from "react";
 import { bg_shorten_desktop } from "../../assets/images";
 import "./URLUpload.style.css";
 import LinesEllipsis from "react-lines-ellipsis";
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import { loading } from "../../assets/images";
 
 function URLUpload() {
   const [link, setlink] = useState("");
