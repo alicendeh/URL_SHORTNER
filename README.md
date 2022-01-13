@@ -8,9 +8,11 @@
  1. cd to URL_SHORTNER
  2. Then run Application yarn start or npm start
 
-#### How to test
+### How to test
  1.Copy any valid URL Of your choice and paste on the input field.
+ 
  2. Click on shorten and get the shorten link below with a button to copy that shortened link
+ 
  3. Get this link back each time you load this site.
 
 
